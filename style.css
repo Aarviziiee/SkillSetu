@@ -1,0 +1,162 @@
+#hero {
+  background-color:#23675B;
+  min-height:250px;
+}
+
+#filters {
+  background-color:#dddcdc;
+  border: 2px solid #cecece ;
+}
+.filter-btn {
+  border-radius: 20px;
+  margin: 5px 0px;
+  border: 1px solid #CCC;
+  background-color:#fcc889f6;
+  color: #1b1a1a;
+  padding: 6px 18px;
+}
+
+.filter-btn.active {
+  background-color:#fb971c;
+  color: rgb(248, 245, 245);
+  border: none;
+}
+ 
+html{
+  background-color:#1F3A3D;
+}
+
+body {
+  background-color: #2d8373;
+  border-style: solid;
+  border-color: #1F3A3D;
+  border-width: 5px 8px 8px 8px;
+  min-height: 100vh;
+}
+.category-badge{
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.tutoring{
+  background-color:#93D2E8;
+  color:#1D22B2;
+}
+
+.repairs{
+  background-color:#E89693;
+  color:#5D0A0A;
+}
+
+.tailoring{
+  background-color:#EAADE8;
+  color:#6e0f6c;
+}
+
+.creative{
+  background-color:#fdcef2;
+  color:#550831;
+}
+
+.card-meta{
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.contact-link{
+  display: inline-block;
+  background-color: #E8D9F3;
+  color:#1D22B2;
+  padding: 6px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.skill-card{
+  background-color:#f6e5f2;
+  min-height: 250px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  position: relative;
+}
+
+.toggle-desc {
+  color: #666;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #d4d8d798;
+  border: 1px solid #4774648c;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color:#F5C6C2;
+}
+
+.copyright{
+  color:#D5CECE;
+}
+.footer-link{
+  color:#D5CECE;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color:#9bd6eb;
+}
+
+.form-subtext {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.form-panel {
+ background-color: #CCCCCC;
+ width: 619.5px;
+ max-width: 90%;
+ padding: 40px;
+ border-radius: 12px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+.form-label {
+  color: #474f4f;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+}
+
+.form-control,.form-select {
+  background-color: #b6bab9dc;
+}
+ 
+#add-skill-form h2 {
+  font-weight: 650;
+  color: #38251eeb;
+}

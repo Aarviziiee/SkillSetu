@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Your Skill -SkillSetu</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1B4B43 ;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SkillSetu</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#filters">Categories</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="add-skill.html">Add Your Skill</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="add-skill-form" class="py-5">
+      <div class="container d-flex justify-content-center">
+        <div class="form-panel">
+          <h2 class="text-center">Add Your Skill</h2>
+          <p class="text-center form-subtext">Share your skill with the communinity</p>
+
+          <form id="skillForm">
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="skillCategory" class="form-label">Skill Categgory</label>
+              <select class="form-select" id="skillCategory" name="skillCategory" required>
+                <option value="disabled selected">Select a category</option>
+                <option value="tutoring">Tutoring</option>
+                <option value="repairs">Repairs</option>
+                <option value="tailoring">Tailoring</option>
+                <option value="creative">Creative</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="shortDescription" class="form-label">Short Description</label>
+              <textarea class="form-control" name="shortDescription" id="shortDescription" rows="3" placeholder="Describe your skill briefly..." required></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="availability" class="form-label">Available Days/Time</label>
+              <input type="text" class="form-control" id="availability" name="availability" placeholder="e.g. Weekdays, 5-8PM" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" class="form-control" name="location" id="location" placeholder="e.g. Rohini,Delhi"  required>
+            </div>
+
+            <div class="mb-3">
+              <label for="contactNumber" class="form-label">Contact Number</label>
+              <input type="tel" class="form-control" id="contactNumber" name="contactNumber" placeholder="10-digit number" pattern="[0-9]{10}" required>
+            </div>  
+
+            <button type="submit" class="btn btn-lg fw-semibold w-100 mt-2" style="background: #FF871D; color: white;">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+    </section>
+  </main>
+
+   <footer class="align-items-center text-white py-3" style="background-color:#1B4B43";>
+    <div class="container d-flex justify-content-between align-item-center">
+      <p class="mb-0 copyright">&copy; 2026 SkillSetu. All rights reserved.</p>
+      <div>
+       <a href="#" class="footer-link">About</a> |
+       <a href="#" class="footer-link">Contact</a> |
+       <a href="#" class="footer-link">Github</a> 
+     </div>
+    </div> 
+  </footer>
+
+
+  <!-- Bootstrap JS bundle (needed for navbar toggle, dropdowns etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Axios (for later, when we fetch/post data) -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Your custom JS, loaded last -->
+  <script src="script.js"></script>
+</body>
+</html>

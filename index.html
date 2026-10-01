@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSetu - Local Skills for Hire</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+   <nav 
+     class="navbar navbar-expand-lg navbar-dark" style="background-color: #1B4B43;">
+
+     <div class="container-fluid">
+        <a class="navbar-brand" href="#">SkillSetu</a>
+       <!-- bootsrap class: collapses to a hamburger on screen size reduction -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto flex-nowrap">
+           <li class="nav-item">
+             <a class="nav-link active" href="#hero">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link"  href="#filters">Categories</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="add-skill.html">Add Your Skill</a>
+           </li>
+           
+         </ul>
+       </div>
+     </div>
+   </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="text-center text-white py-5">    
+      <div class="container">
+       <h1 class="fw-semibold">Find Trusted Skills Near You</h1>  
+       <p class="lead">Discover local talent for tutoring, repairs, tailoring, and more-all in one place.</p>
+       <a href="#listings" class="btn btn-lg fw-bold" style="background-color:#FF871D; color: white;">Browse Skill</a>
+      </div>
+    </section>
+
+
+    <section id="filters">
+      <div class="container d-flex flex-wrap justify-content-center gap-2">
+        <button class="btn btn-sm filter-btn active" data-category="all">All</button>
+        <button class="btn btn-sm filter-btn" data-category="tutoring">Tutoring</button>
+        <button class="btn btn-sm filter-btn" data-category="repairs">Repairs</button>
+        <button class="btn btn-sm filter-btn" data-category="tailoring">Tailoring</button>
+        <button class="btn btn-sm filter-btn" data-category="creative">Creative</button>
+      </div>
+    </section>
+
+
+    <section id="listings" class="py-4">
+      <div class="container">
+        <div class="row g-4" id="cardsContainer"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="align-items-center text-white py-3" style="background-color:#1B4B43";>
+    <div class="container d-flex justify-content-between align-item-center">
+      <p class="mb-0 copyright">&copy; 2026 SkillSetu. All rights reserved.</p>
+      <div>
+       <a href="#" class="footer-link">About</a> |
+       <a href="#" class="footer-link">Contact</a> |
+       <a href="#" class="footer-link">Github</a> 
+     </div>
+    </div> 
+  </footer>
+
+  <!-- Bootstrap JS bundle (needed for navbar toggle, dropdowns etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Axios (for later, when we fetch/post data) -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Your custom JS, loaded last -->
+  <script src="script.js"></script>
+
+</body>
+</html> 

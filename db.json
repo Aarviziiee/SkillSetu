@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "fullName": "Priya Sharma",
+      "skillCategory": "tutoring",
+      "shortDescription": "experienced math tutor for grades 6-10, patient and structured teaching style.",
+      "availability": "Weekdays, 5-8 PM",
+      "location": "Rohini, Delhi",
+      "contactNumber": "9876543210"
+    },
+    {
+      "id": "2",
+      "fullName": "Brij Kumar",
+      "skillCategory": "repairs",
+      "shortDescription": "Fixes household electronic and appliances, same-day service available.",
+      "availability": "Monday-Saturday, 10AM-6PM",
+      "location": "Dwarka, Delhi",
+      "contactNumber": "9857748321"
+    },
+    {
+      "id": "3",
+      "fullName": "Anu Mishra",
+      "skillCategory": "tailoring",
+      "shortDescription": "Custom stiching and alterations for all occasions, quick turnaround.",
+      "availability": "Weekdays, 11AM-7PM",
+      "location": "Lajpat Nagar, Delhi",
+      "contactNumber": "9120345678"
+    },
+    {
+      "id": "4",
+      "fullName": "Kabir Sinha",
+      "skillCategory": "creative",
+      "shortDescription": "Freelance graphic designer specializing in logos and social media creatives.",
+      "availability": "Flexible, by appointment",
+      "location": "Saket, Delhi",
+      "contactNumber": "9234856718"
+    },
+    {
+      "id": "5",
+      "fullName": "Rahul Verma",
+      "skillCategory": "tutoring",
+      "shortDescription": "English and Hindi language tutor for school students, all levels.",
+      "availability": "Evenings, 6-9 PM",
+      "location": "Vasant Kunj, Delhi",
+      "contactNumber": "9653201824"
+    },
+    {
+      "id": "6",
+      "fullName": "Suresh Yadav",
+      "skillCategory": "repairs",
+      "shortDescription": "Plumbing and minor home repairs, quck response or urgent issues.",
+      "availability": "Daily, 9AM-5PM",
+      "location": "Karol Bagh, Delhi",
+      "contactNumber": "8452694785"
+    },
+    { 
+      "fullName": "Arya Makheeja",
+      "skillCategory": "creative",
+      "shortDescription": "Interior designer with a hands-on experience of 5-years in styling and designing interiors of high-end offices to homely spaces. Looking forward to making your space feel a little more like you.",
+      "availability": "Weekdays, 10AM-5PM",
+      "location": "Vasant Vihar,Delhi",
+      "contactNumber": "3985709556",
+      "id": "G4IaFFXlYdY"
+    },
+    {
+      "fullName": "Vaishnavi",
+      "skillCategory": "tailoring",
+      "shortDescription": "Holds the skill to stitch any ethnic to western design with every kind of material possible. Styles both men and women attires.",
+      "availability": "12-6PM, Mon-Sat",
+      "location": "Lal Qila, Delhi ",
+      "contactNumber": "8776344656",
+      "id": "sEsOLpatQvo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
